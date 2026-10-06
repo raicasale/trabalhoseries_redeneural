@@ -1,0 +1,12 @@
+{
+  "n_rows": 100,
+  "n_test": 22,
+  "n_inner": 14,
+  "train_targets": "2017-01-15 a 2017-04-02",
+  "inner_targets": "2017-03-20 a 2017-04-02",
+  "test_targets": "2017-04-03 a 2017-04-24",
+  "seed": 42,
+  "mlp_seeds_inner": 3,
+  "mlp_seeds_final": 5,
+  "m_seasonal": 7
+}
