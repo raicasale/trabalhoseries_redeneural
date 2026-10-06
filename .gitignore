@@ -25,6 +25,11 @@ notebooks/bikes-sales_backup.ipynb
 *.jpeg
 *.jpg
 *.png
+!relatorios/relatorio_brazil.pdf
+
+# Modelos reproduzíveis a partir dos códigos e resultados do Brazil
+outputs_brazil_comparacao/**/*.pkl
+outputs_brazil_comparacao/**/*.joblib
 
 # Arquivos do sistema operacional
 .DS_Store
