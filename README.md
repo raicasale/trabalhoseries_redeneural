@@ -5,7 +5,7 @@ base Daily Delhi Climate do Grupo 1.
 
 ## Documentação
 
-- [Relatório técnico em HTML](relatorios/relatorio_tecnico_delhi_temp.html):
+- [Relatório Delhi Temp](relatorios/relatorio_tecnico_delhi_temp.html):
   versão executiva, responsiva e pronta para impressão.
 - [Relatório técnico em PDF](relatorios/relatorio_tecnico_delhi_temp.pdf):
   cópia gerada a partir do HTML, com figuras embutidas.
@@ -19,8 +19,6 @@ base Daily Delhi Climate do Grupo 1.
 ## Estrutura dos relatórios
 
 ```text
-docs/
-  DOCUMENTACAO_TREINAMENTO.md
 relatorios/
   relatorio_tecnico_delhi_temp.html
 relatorio_tecnico_delhi_temp.pdf
