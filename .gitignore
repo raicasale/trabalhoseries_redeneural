@@ -1,0 +1,31 @@
+# Ambientes virtuais e temporários do Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Arquivos de backup e temporários
+*_backup.ipynb
+*.bak
+*.tmp
+
+# Materiais de apoio e outros notebooks na pasta notebooks
+notebooks/main.ipynb
+notebooks/holt_winters.ipynb
+notebooks/bikes-sales_backup.ipynb
+
+# Planilhas de apoio e PDFs de documentação interna
+*.xlsx
+*.xls
+*.pdf
+*.JPEG
+*.jpeg
+*.jpg
+*.png
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
