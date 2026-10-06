@@ -15,8 +15,6 @@ base Daily Delhi Climate do Grupo 1.
 ## Estrutura dos relatórios
 
 ```text
-docs/
-  DOCUMENTACAO_TREINAMENTO.md
 relatorios/
   relatorio_tecnico_delhi_temp.html
   relatorio_tecnico_bikes_sales.html
