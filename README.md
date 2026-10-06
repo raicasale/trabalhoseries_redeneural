@@ -5,10 +5,8 @@ base Daily Delhi Climate do Grupo 1.
 
 ## Documentação
 
-- [Relatório técnico em HTML](relatorios/relatorio_tecnico_delhi_temp.html):
+- [Relatório Delhi Temp](relatorios/relatorio_tecnico_delhi_temp.html):
   versão executiva, responsiva e pronta para impressão.
-- [Documentação completa do treinamento](docs/DOCUMENTACAO_TREINAMENTO.md):
-  metodologia, auditorias, tabelas completas e instruções de reprodução.
 - [Relatório Bike Sales](relatorios/relatorio_tecnico_bikes_sales.html):
   referência visual original do projeto, mantida no repositório.
 - [Design system](design-system/stripe-DESIGN.md): tokens de cor, tipografia,
