@@ -1,0 +1,59 @@
+{
+  "teste": {
+    "inicio": "2015-12-28",
+    "fim": "2016-07-31",
+    "horizonte_dias": 1,
+    "reajuste_a_cada_dias": 14
+  },
+  "holt_winters": {
+    "trend": null,
+    "damped_trend": false,
+    "seasonal": "add",
+    "seasonal_periods": 7
+  },
+  "sarimax": {
+    "order": [
+      0,
+      1,
+      2
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      1,
+      7
+    ],
+    "exogenas": [
+      "dow_sin",
+      "dow_cos",
+      "is_weekend",
+      "is_holiday_us",
+      "cost_lag_1",
+      "qty_lag_1"
+    ],
+    "escala_alvo": 1000.0
+  },
+  "random_forest": {
+    "n_estimators": 100,
+    "min_samples_split": 20,
+    "min_samples_leaf": 2,
+    "max_features": 0.3,
+    "max_depth": 6
+  },
+  "mlp": {
+    "learning_rate_init": 0.005,
+    "hidden_layer_sizes": [
+      64
+    ],
+    "alpha": 1.0,
+    "n_seeds": 5,
+    "max_iter": 1000,
+    "alvo_padronizado": true
+  },
+  "tempo_execucao_s": {
+    "Holt-Winters": 4.078274800078361,
+    "SARIMAX": 40.405881300001056,
+    "Random Forest": 5.376821500016376,
+    "MLP Regressor (Rede Neural)": 19.803109599859454
+  }
+}
