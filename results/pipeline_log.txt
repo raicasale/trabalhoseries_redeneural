@@ -1,0 +1,12 @@
+08:50:01 origens=100 | treino completo: 13..90 | teste: 2017-04-03..2017-04-24
+08:50:01 busca_holt_winters.csv: reaproveitando busca salva
+08:50:01 busca_sarimax.csv: reaproveitando busca salva
+08:50:01 busca_random_forest.csv: reaproveitando busca salva
+08:50:01 busca_mlp.csv: reaproveitando busca salva
+08:50:01 w compartilhado = 14
+08:50:01 selecionados: {'Holt-Winters': {'trend': 'add', 'seasonal': None, 'damped': False, 'm': 7}, 'SARIMAX': {'order': [2, 1, 1], 'seasonal_order': [0, 0, 0], 'm': 7, 'exog': True}, 'Random Forest': {'w': 14, 'n_estimators': 100, 'max_depth': 6, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'target': 'delta'}, 'MLP Regressor': {'w': 14, 'hidden': [32], 'activation': 'relu', 'alpha': 10.0, 'solver': 'lbfgs', 'lr': 0.01, 'target': 'delta'}}
+08:50:16 teste final ok
+08:50:39 importâncias ok
+08:51:12 ablação ok
+08:51:49 sensibilidade alpha ok
+08:51:49 FIM em 1.8 min

@@ -7,6 +7,8 @@ base Daily Delhi Climate do Grupo 1.
 
 - [Relatório técnico em HTML](relatorios/relatorio_tecnico_delhi_temp.html):
   versão executiva, responsiva e pronta para impressão.
+- [Relatório técnico em PDF](relatorios/relatorio_tecnico_delhi_temp.pdf):
+  cópia gerada a partir do HTML, com figuras embutidas.
 - [Documentação completa do treinamento](docs/DOCUMENTACAO_TREINAMENTO.md):
   metodologia, auditorias, tabelas completas e instruções de reprodução.
 - [Relatório Bike Sales](relatorios/relatorio_tecnico_bikes_sales.html):
@@ -21,11 +23,14 @@ docs/
   DOCUMENTACAO_TREINAMENTO.md
 relatorios/
   relatorio_tecnico_delhi_temp.html
+relatorio_tecnico_delhi_temp.pdf
   relatorio_tecnico_bikes_sales.html
 design-system/
   stripe-DESIGN.md
 ```
 
-O relatório HTML não depende de build, servidor ou assets locais: pode ser
-aberto diretamente no navegador e salvo como PDF pelo botão de impressão.
-
+Para reproduzir: `pip install -r requirements.txt`, execute os testes,
+`src/pipeline_delhi.py`, `src/build_notebooks_delhi.py`,
+`src/build_docs_delhi.py` e `src/build_report_delhi.py`. O relatório HTML é
+autocontido, com figuras embutidas, e pode ser salvo como PDF pelo botão de
+impressão.
